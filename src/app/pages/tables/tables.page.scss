@@ -1,0 +1,99 @@
+.group-container {
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    padding: 5px;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  
+  .group-heading {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .team-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .team-image {
+    width: 100px;
+    /* Adjust the width as per your image dimensions */
+    height: 100px;
+    /* Adjust the height as per your image dimensions */
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+    /* Adjust the margin as needed */
+  }
+  
+  .team-item {
+    display: flex;
+    align-items: center;
+    font-size: small;
+  }
+  
+  .team-image {
+    width: 40px;
+    /* Adjust the width as per your image dimensions */
+    height: 40px;
+    /* Adjust the height as per your image dimensions */
+    background-size: cover;
+    background-position: center;
+    margin-right: 5px;
+    /* Adjust the margin as needed */
+  }
+  
+  .team-name {
+    flex-grow: 1;
+    margin-left: 10px;
+    font-size: large;
+    font-weight: bold;
+    text-align: justify;
+  }
+  
+  .team-item:last-child {
+    border-bottom: none;
+  }
+  
+  ion-title {
+    text-align: center;
+  }
+  
+  .happy-tournament {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .happy-tournament-text {
+    font-size: 18px;
+    color: blueviolet;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 8px;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
+  }
+  
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: large;
+    font-weight: 600;
+    color: darkmagenta;
+    margin-top: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  

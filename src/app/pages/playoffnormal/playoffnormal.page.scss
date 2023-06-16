@@ -1,0 +1,116 @@
+.title {
+    text-align: center;
+    font-size: small;
+    font-weight: bold;
+    /* Center align the title */
+    // font-size: medium;
+  }
+  
+  .happy-tournament {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-top: -10px;
+    margin-left: 10px;
+    margin-right: 10px; 
+  }
+  
+  .happy-tournament-text {
+    font-size: 18px;
+    color: blueviolet;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 8px;
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 15px;
+  }
+  
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: large;
+    font-weight: 600;
+    color:darkmagenta;
+    margin-top: 20px;
+    box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 5px;
+    text-align: center;
+    font-size: 13px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  td {
+    background-color: #ffffff;
+  }
+  
+  input[type="number"] {
+    width: 50px;
+    text-align: center;
+    border: none;
+    background-color: #f2f2f2;
+  }
+  
+  input[type="number"]:focus {
+    outline: none;
+    background-color: #eaeaea;
+  }
+  
+  .spacer-row td {
+    border-bottom: none;
+    background-color: greenyellow;
+    height: 20px;
+    font-weight: bold;
+  }
+
+  .spacer-row-final td{
+    border-bottom: none;
+    background-color: orange;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  
+  .border-bottom {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .team-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .team-image {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    /* Adjust the margin as desired */
+  }
+  
+  .team-name {
+    font-weight: bold;
+    margin-left: 5px;
+    /* Adjust the margin as desired */
+  }

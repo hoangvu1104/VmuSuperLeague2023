@@ -1,0 +1,64 @@
+.round-robin-results {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .round-robin-results th,
+  .round-robin-results td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .round-robin-results th {
+    background-color: #f2f2f2;
+  }
+
+  .group-header {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .yellow-card::before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: yellow;
+    border-radius: 50%;
+  }
+
+  .red-card::before {
+    content: "";
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: red;
+    border-radius: 50%;
+  }
+
+  .team-image {
+    width: 50px;
+    /* Adjust the width as per your image dimensions */
+    height: 50px;
+    /* Adjust the height as per your image dimensions */
+    background-size: cover;
+    background-position: center;
+    margin-right: 5px;
+    /* Adjust the margin as needed */
+  }
+
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: large;
+    font-weight: 600;
+    color: darkmagenta;
+    margin-top: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  }

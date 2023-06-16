@@ -1,0 +1,11 @@
+<app-toolbar-header></app-toolbar-header>
+
+<ion-content>  
+  <div class="happy-tournament">
+    <span class="happy-tournament-text">Lịch thi đấu vòng bảng</span>
+  </div>
+  <app-round-robin [divisions]="divisions" [displayLogo]="displayLogo"></app-round-robin>
+  <div class="happy-tournament">
+    <span class="btn" (click)="changeDisplayImages()">{{ message }}</span>
+  </div>
+</ion-content>

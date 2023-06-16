@@ -1,0 +1,40 @@
+<table>
+  <thead>
+    <tr>
+      <th>Thời gian</th>
+      <th>Sân</th>
+      <th>{{ message }}</th>
+      <th>Tên đội</th>
+      <th></th>
+      <th>Tên đội</th>
+      <th>{{ message }}</th>
+    </tr>
+  </thead>
+  <tbody>
+    <ng-container *ngFor="let division of divisions; let i = index">
+      <tr [class.border-bottom]="(i + 1) % 4 !== 0">
+        <td *ngIf="(i + 1) % 4 === 1" rowspan="4">{{ division.time }}</td>
+        <td>{{ division.field }}</td>
+        <td>
+          <div class="team-info">
+            <img [src]="commonFunctions.getTeamImageStyle(division.teamA, displayLogo)" alt="Team A" class="team-image">
+          </div>
+        </td>
+        <td class="team-name">{{ division.teamA }}</td>
+        <td>vs</td>
+        <td class="team-name">{{ division.teamB }}</td>
+        <td>
+          <div class="team-info">
+            <img [src]="commonFunctions.getTeamImageStyle(division.teamB, displayLogo)" alt="Team B" class="team-image">
+          </div>
+        </td>
+      </tr>
+      <tr *ngIf="((i + 1) % 4 === 0) && (i+1) !== divisions.length" class="spacer-row">
+        <td colspan="7">Giải lao 15 phút</td>
+      </tr>
+      <tr *ngIf="(i + 1) === divisions.length" class="spacer-row">
+        <td colspan="7">Nghỉ trưa 1 tiếng</td>
+      </tr>
+    </ng-container>
+  </tbody>
+</table>

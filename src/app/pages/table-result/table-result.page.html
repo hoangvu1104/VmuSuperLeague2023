@@ -1,0 +1,87 @@
+<ion-content>
+  <ion-card>
+    <ion-card-content>
+      <ion-list>
+        <h2 class="group-header">Group A</h2>
+        <table class="round-robin-results">
+          <thead>
+            <tr>
+              <th></th>
+              <th></th>
+              <th>Team</th>
+              <th>P</th>
+              <th>W</th>
+              <th>L</th>
+              <th>D</th>
+              <th>GF</th>
+              <th>GA</th>
+              <th>GD</th>
+              <th class="yellow-card"></th>
+              <th class="red-card"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let team of teamResultGroupA; let i = index">
+              <td>{{ i + 1 }}</td>             
+              <td><ion-img [src]="commonFunctions.getTeamImageStyle(team.teamName, displayLogo)"></ion-img></td>
+              <td>{{ team.teamName }}</td>
+              <td>{{ team.point }}</td>
+              <td>{{ team.won }}</td>
+              <td>{{ team.lost }}</td>
+              <td>{{ team.draw }}</td>
+              <td>{{ team.goalsFor }}</td>
+              <td>{{ team.goalsAgainst }}</td>
+              <td>{{ team.goalsFor - team.goalsAgainst }}</td>
+              <td>{{ team.yellowCards }}</td>
+              <td>{{ team.redCards }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      <ion-list>
+        <h2 class="group-header">Group B</h2>
+        <table class="round-robin-results">
+          <thead>
+            <tr>
+              <th></th>
+              <th></th>
+              <th>Team</th>
+              <th>P</th>
+              <th>W</th>
+              <th>L</th>
+              <th>D</th>
+              <th>GF</th>
+              <th>GA</th>
+              <th>GD</th>
+              <th class="yellow-card"></th>
+              <th class="red-card"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let team of teamResultGroupB; let i = index">
+              <td>{{ i + 1 }}</td>
+              <td><ion-img [src]="commonFunctions.getTeamImageStyle(team.teamName, displayLogo)"></ion-img></td>
+              <td>{{ team.teamName }}</td>
+              <td>{{ team.point }}</td>
+              <td>{{ team.won }}</td>
+              <td>{{ team.lost }}</td>
+              <td>{{ team.draw }}</td>
+              <td>{{ team.goalsFor }}</td>
+              <td>{{ team.goalsAgainst }}</td>
+              <td>{{ team.goalsFor - team.goalsAgainst }}</td>
+              <td>{{ team.yellowCards }}</td>
+              <td>{{ team.redCards }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+  <div class="happy-tournament">
+    <span class="btn" (click)="changeDisplayImages()">{{ message }}</span>
+  </div>
+</ion-content>

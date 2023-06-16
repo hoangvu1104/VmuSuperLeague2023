@@ -1,0 +1,90 @@
+<app-toolbar-header></app-toolbar-header>
+<ion-content>  
+  <div class="happy-tournament">
+    <span class="happy-tournament-text">Lịch thi đấu vòng đấu loại trực tiếp</span>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th>Thời gian</th>
+        <th>Sân</th>
+        <th>{{ message }}</th>
+        <th>Tên đội</th>
+        <th></th>
+        <th>Tên đội</th>
+        <th>{{ message }}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <ng-container *ngFor="let division of semifinals; let i = index">
+        <tr [class.border-bottom]="(i + 1) % 4 !== 0">
+          <td *ngIf="(i + 1) % 4 === 1" rowspan="4">{{ division.time }}</td>
+          <td>{{ division.field }}</td>
+          <td>
+            <div class="team-info">
+              <img [src]="commonFunctions.getTeamImageStyle(division.teamA, displayLogo)" alt="Team A" class="team-image">
+            </div>
+          </td>
+          <td class="team-name">{{ division.teamA }}</td>
+          <td>vs</td>
+          <td class="team-name">{{ division.teamB }}</td>
+          <td>
+            <div class="team-info">
+              <img [src]="commonFunctions.getTeamImageStyle(division.teamB, displayLogo)" alt="Team B" class="team-image">
+            </div>
+          </td>
+        </tr>
+        <tr *ngIf="((i + 1) % 4 === 0)" class="spacer-row">
+          <td colspan="7">Giải lao 15 phút</td>
+        </tr>       
+      </ng-container>
+      <ng-container *ngFor="let division of finals; let i = index">
+        <tr [class.border-bottom]="(i + 1) % 3 !== 0">
+          <td *ngIf="(i + 1) % 3 === 1" rowspan="3">{{ division.time }}</td>
+          <td>{{ division.field }}</td>
+          <td>
+            <div class="team-info">
+              <img [src]="commonFunctions.getTeamImageStyle(division.teamA, displayLogo)" alt="Team A" class="team-image">
+            </div>
+          </td>
+          <td class="team-name">{{ division.teamA }}</td>
+          <td>vs</td>
+          <td class="team-name">{{ division.teamB }}</td>
+          <td>
+            <div class="team-info">
+              <img [src]="commonFunctions.getTeamImageStyle(division.teamB, displayLogo)" alt="Team B" class="team-image">
+            </div>
+          </td>
+        </tr>
+        <tr *ngIf="((i + 1) % 3 === 0)" class="spacer-row">
+          <td colspan="7">Chung kết Division 1</td>
+        </tr>       
+      </ng-container>
+      <ng-container *ngFor="let division of finalD1; let i = index">
+        <tr>
+          <td>{{ division.time }}</td>
+          <td>{{ division.field }}</td>
+          <td>
+            <div class="team-info">
+              <img [src]="commonFunctions.getTeamImageStyle(division.teamA, displayLogo)" alt="Team A" class="team-image">
+            </div>
+          </td>
+          <td class="team-name">{{ division.teamA }}</td>
+          <td>vs</td>
+          <td class="team-name">{{ division.teamB }}</td>
+          <td>
+            <div class="team-info">
+              <img [src]="commonFunctions.getTeamImageStyle(division.teamB, displayLogo)" alt="Team B" class="team-image">
+            </div>
+          </td>
+        </tr> 
+        <tr class="spacer-row-final">
+          <td colspan="7">16h15 - 17h: Lễ bế mạc</td>
+        </tr>                 
+      </ng-container>
+    </tbody>
+  </table>
+  <div class="happy-tournament">
+    <span class="btn" (click)="changeDisplayImages()">{{ message }}</span>
+  </div>
+</ion-content>

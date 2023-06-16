@@ -1,0 +1,61 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    padding: 5px;
+    text-align: center;
+    font-size: 13px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  td {
+    background-color: #ffffff;
+  }
+  
+  input[type="number"] {
+    width: 50px;
+    text-align: center;
+    border: none;
+    background-color: #f2f2f2;
+  }
+  
+  input[type="number"]:focus {
+    outline: none;
+    background-color: #eaeaea;
+  }
+  
+  .spacer-row td {
+    border-bottom: none;
+    background-color: greenyellow;
+    height: 20px;
+    font-weight: bold;
+  }
+  
+  .border-bottom {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .team-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .team-image {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    /* Adjust the margin as desired */
+  }
+  
+  .team-name {
+    font-weight: bold;
+    margin-left: 5px;
+    /* Adjust the margin as desired */
+  }
