@@ -6,7 +6,7 @@
         <ion-grid>
           <ion-row>
             <ion-col size="3">
-              <ion-img style="height: 80px; width: 80px; margin-bottom: -20px; margin-top: -30px;" src="/assets/images/VMU.jpg"></ion-img>
+              <ion-img style="height: 80px; width: 80px; margin-bottom: -20px; margin-top: -30px;" src="/VmuSuperLeague2023/assets/images/VMU.jpg"></ion-img>
             </ion-col>
             <ion-col size="9">
               <div class="team-name">{{ displayTitle }}</div>
@@ -35,7 +35,7 @@
               <!-- <td *ngIf="isShownAll">{{player.teamName}}</td> -->
               <td>{{player.playerName}}</td>
               <!-- <td *ngIf="isShownAll" class="textDisplay">{{player.playerNumber}}</td> -->
-              <td *ngIf="isShownAll || showGoalsStatic" class="textDisplay">{{player.goals + player.assists}}</td>
+              <td *ngIf="isShownAll" class="textDisplay">{{player.goals + player.assists}}</td>
               <td *ngIf="isShownAll || showGoalsStatic" class="textDisplay">{{player.goals}}</td>
               <td *ngIf="isShownAll || !showGoalsStatic" class="textDisplay">{{player.assists}}</td>
               <!-- <td *ngIf="isShownAll" class="textDisplay">{{player.yellowCards}}</td>
@@ -46,4 +46,20 @@
       </ion-list>
     </ion-card-content>
   </ion-card>
+  <ion-list class="radioClass">
+    <ion-radio-group value="all" (ionChange)="changValue($event);">
+      <ion-item>
+        <ion-label>Danh sách tổng hợp bàn thắng và kiến tạo</ion-label>
+        <ion-radio slot="end" value="all"></ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-label>Danh sách ghi bàn</ion-label>
+        <ion-radio slot="end" value="goals"></ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-label>Danh sách kiến tạo</ion-label>
+        <ion-radio slot="end" value="assists"></ion-radio>
+      </ion-item>
+    </ion-radio-group>
+  </ion-list>
 </ion-content>

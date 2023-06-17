@@ -1,6 +1,6 @@
 export class StaticVariable {
-    static ImagesPath: string = '/assets/images/';  
-    static VMULogo: string = 'VMU.jpg';  
+    static ImagesPath: string = '/VmuSuperLeague2023/assets/images/';
+    static VMULogo: string = 'VMU.jpg';
     static StechcoLogo: string = 'Stechco.png';
     static FC3MienLogo: string = '3MienFC.jpg';
     static U45FCLogo: string = 'U45FC.jpg';
