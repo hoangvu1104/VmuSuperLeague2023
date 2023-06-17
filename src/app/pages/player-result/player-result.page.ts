@@ -285,10 +285,14 @@ export class PlayerResultPage implements OnInit {
         }
       })
       .sort((a, b) => {
-        if (this.showGoalsStatic) {
-          return b.goals - a.goals;
+        if (this.isShownAll) {
+          return b.goals + b.assists - (a.goals + a.assists);
         } else {
-          return b.assists - a.assists;
+          if (this.showGoalsStatic) {
+            return b.goals - a.goals;
+          } else {
+            return b.assists - a.assists;
+          }
         }
       });
   }
