@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1686878568347,
+  "timestamp": 1686964689661,
   "index": "https://hoangvu1104.github.io/VmuSuperLeague2023/index.html",
   "assetGroups": [
     {
@@ -48,7 +48,7 @@
         "https://hoangvu1104.github.io/VmuSuperLeague2023/6120.e10bd97ad0fdb89d.js",
         "https://hoangvu1104.github.io/VmuSuperLeague2023/6560.3af818bd483d0781.js",
         "https://hoangvu1104.github.io/VmuSuperLeague2023/657.0100b94c3ab93a48.js",
-        "https://hoangvu1104.github.io/VmuSuperLeague2023/7070.763a086ffbd98a04.js",
+        "https://hoangvu1104.github.io/VmuSuperLeague2023/7070.04e17f2a43f57fbc.js",
         "https://hoangvu1104.github.io/VmuSuperLeague2023/7206.87b4e433ec6bffb4.js",
         "https://hoangvu1104.github.io/VmuSuperLeague2023/7544.67b20d4a761e2e38.js",
         "https://hoangvu1104.github.io/VmuSuperLeague2023/7602.90dc1e3a0c9814c8.js",
@@ -67,13 +67,13 @@
         "https://hoangvu1104.github.io/VmuSuperLeague2023/9958.3a7943046d5c3504.js",
         "https://hoangvu1104.github.io/VmuSuperLeague2023/common.46ff48aafb75616f.js",
         "https://hoangvu1104.github.io/VmuSuperLeague2023/index.html",
-        "https://hoangvu1104.github.io/VmuSuperLeague2023/main.cb108c51f2d8e8ca.js",
+        "https://hoangvu1104.github.io/VmuSuperLeague2023/main.0a6797d4ff3f8d97.js",
         "https://hoangvu1104.github.io/VmuSuperLeague2023/manifest.webmanifest",
         "https://hoangvu1104.github.io/VmuSuperLeague2023/polyfills-core-js.20e9fb5568c66479.js",
         "https://hoangvu1104.github.io/VmuSuperLeague2023/polyfills-dom.3a5e3168052f1fc5.js",
         "https://hoangvu1104.github.io/VmuSuperLeague2023/polyfills.fc6fad8ce607b49d.js",
-        "https://hoangvu1104.github.io/VmuSuperLeague2023/runtime.02a1cd1d49fe7b29.js",
-        "https://hoangvu1104.github.io/VmuSuperLeague2023/styles.a29162dd30809b76.css"
+        "https://hoangvu1104.github.io/VmuSuperLeague2023/runtime.d71f88bb97de2ef9.js",
+        "https://hoangvu1104.github.io/VmuSuperLeague2023/styles.b8777235688abb5b.css"
       ],
       "patterns": []
     },
@@ -155,7 +155,7 @@
     "https://hoangvu1104.github.io/VmuSuperLeague2023/6120.e10bd97ad0fdb89d.js": "76c986fcd6beaa8c9e601892a2bc50ab3234fc40",
     "https://hoangvu1104.github.io/VmuSuperLeague2023/6560.3af818bd483d0781.js": "bba6ed967e7d9f06ec211915f32947c4e8de42ab",
     "https://hoangvu1104.github.io/VmuSuperLeague2023/657.0100b94c3ab93a48.js": "e7f6417f73f497f40e439ed913b80b08d2714a99",
-    "https://hoangvu1104.github.io/VmuSuperLeague2023/7070.763a086ffbd98a04.js": "7f7759ec7cf4785465d02c46652645426946fedb",
+    "https://hoangvu1104.github.io/VmuSuperLeague2023/7070.04e17f2a43f57fbc.js": "b509860fb20764ea952c4334dec3caeb7a97f3e8",
     "https://hoangvu1104.github.io/VmuSuperLeague2023/7206.87b4e433ec6bffb4.js": "22b4dc4028c76b7eb9abd8e6fbb99ebbec1f14ae",
     "https://hoangvu1104.github.io/VmuSuperLeague2023/7544.67b20d4a761e2e38.js": "47dafd65e17ef68ec8ac104e470969aa2cb59a63",
     "https://hoangvu1104.github.io/VmuSuperLeague2023/7602.90dc1e3a0c9814c8.js": "c3d8410ff4634f839ce461312197322750c7edbe",
@@ -200,14 +200,14 @@
     "https://hoangvu1104.github.io/VmuSuperLeague2023/assets/images/YellowTeam.jpg": "1cb2de87286f0fd3e0810c3f5ac214fd6d135da6",
     "https://hoangvu1104.github.io/VmuSuperLeague2023/assets/shapes.svg": "5413e95adabcb2cb639970051f55e0ddb64ace53",
     "https://hoangvu1104.github.io/VmuSuperLeague2023/common.46ff48aafb75616f.js": "0c8580f282229cd6ae1b35a4f6f40ca62558d0e7",
-    "https://hoangvu1104.github.io/VmuSuperLeague2023/index.html": "5083c0bbc13c581ad3d0492846b2b1eeb0bd1c32",
-    "https://hoangvu1104.github.io/VmuSuperLeague2023/main.cb108c51f2d8e8ca.js": "2ce6d016194f3f6f5b79597811e5fac0a1d8ce9f",
+    "https://hoangvu1104.github.io/VmuSuperLeague2023/index.html": "a46d6422b241204d07bc25eefc13c20dc308eec2",
+    "https://hoangvu1104.github.io/VmuSuperLeague2023/main.0a6797d4ff3f8d97.js": "29543f7ce3ced709d263849e25640aafe9d493b4",
     "https://hoangvu1104.github.io/VmuSuperLeague2023/manifest.webmanifest": "9a088b7c4339228d1082e666ce105dc889bc180c",
     "https://hoangvu1104.github.io/VmuSuperLeague2023/polyfills-core-js.20e9fb5568c66479.js": "7b2237821e79690f9dd2dac0b8a3b9ec6c229b76",
     "https://hoangvu1104.github.io/VmuSuperLeague2023/polyfills-dom.3a5e3168052f1fc5.js": "50f6ff473a0568bffb8a9d412d7efaced2d36137",
     "https://hoangvu1104.github.io/VmuSuperLeague2023/polyfills.fc6fad8ce607b49d.js": "29ecdc4392e1398b433f3838f08631c7ce701c6d",
-    "https://hoangvu1104.github.io/VmuSuperLeague2023/runtime.02a1cd1d49fe7b29.js": "6f9205d8b1e3347eabd64229e7ac79e1f2de9548",
-    "https://hoangvu1104.github.io/VmuSuperLeague2023/styles.a29162dd30809b76.css": "8ff964480356deca7c6b361151dd765e6de00221"
+    "https://hoangvu1104.github.io/VmuSuperLeague2023/runtime.d71f88bb97de2ef9.js": "c6c4298ad6651f37d14b06d995a8aeb0cdec636e",
+    "https://hoangvu1104.github.io/VmuSuperLeague2023/styles.b8777235688abb5b.css": "55fc6146d8b18952e8a65c1c5c070d08dbea04fd"
   },
   "navigationUrls": [
     {
